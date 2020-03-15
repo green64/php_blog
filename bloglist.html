@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steve's Place</title>
+  <title>Steve's Place Blogs</title>
   <script src="https://kit.fontawesome.com/4345064a21.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
   <link href="css/styles.css" type="text/css" rel="stylesheet" />
@@ -12,25 +12,18 @@
       <!-- mobile nav -->
       <div id="slideout-menu">
         <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="bloglist.html">Blog</a>
-            </li>
-            <li>
-                <a href="bloglist.html">Projects</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <input type="text" placeholder="Search Here">
-            </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bloglist.html">Blog</a></li>
+          <li><a href="bloglist.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <input type="text" placeholder="Search Here">
+            <br>
+          </li>
         </ul>
-    </div>
-<!-- desktop nav -->
+      </div>
   <nav>
+    <!-- desktop nav -->
     <div id="logo-img">
       <a href="#">
         <img src="img/logo.png" alt="logo">
@@ -55,15 +48,9 @@
     <input type="text" placeholder="Search Here">
   </div>
 
-  <div id="banner">
-    <h1>Steve's Place</h1>
-    <h3>Good eats any time</h3>
-  </div>
 
   <main>
-    <a href="bloglist.html">
-      <h2 class="section-heading">All Blogs</h2>
-    </a>
+   <h2 class="page-heading">Blogs</h2>
   <!-- card 1 & 2 -->
   <section>
     <div class="card">
@@ -75,8 +62,11 @@
 
       <div class="card-description">
         <a href="blogpost.html">
-          <h3>Blog title here</h3>
+          <h3>The Night I Ate a Stinkbug</h3>
         </a>
+        <div class="card-meta">
+          Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+        </div>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Adipiscing elit, sed do eiusmod tempor 
@@ -95,8 +85,11 @@
   
         <div class="card-description">
           <a href="blogpost2.html">
-            <h3>Blog title here</h3>
+            <h3>When Dreams Mean You're Crazy</h3>
           </a>
+          <div class="card-meta">
+            Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+          </div>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
@@ -104,64 +97,108 @@
           <a href="blogpost2.html" class="btn-readmore">Read more</a>
         </div>
     </div>
-</section>
 
-<!-- card 3 & 4 -->
-<a href="#">
-  <h2 class="section-heading">All Projects</h2>
-</a>
+      <!-- card 3 & 4 -->
 
-    <section>
-      <div class="card">
-        <div class="card-image">
-          <a href="#">
-            <img src="img/3.jpg" alt="card image">
-          </a>
-        </div>
-  
-        <div class="card-description">
-          <a href="#">
-            <h3>Project title here</h3>
-          </a>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          </p>
-          <a href="#" class="btn-readmore">Read more</a>
-        </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="blogpost3.html">
+          <img src="img/3.jpg" alt="card image">
+        </a>
       </div>
 
+      <div class="card-description">
+        <a href="blogpost3.html">
+          <h3>Blog title here</h3>
+        </a>
+        <div class="card-meta">
+          Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+        </div>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        </p>
+        <a href="blogpost3.html" class="btn-readmore">Read more</a>
+      </div>
+    </div>
+
       <div class="card">
         <div class="card-image">
-          <a href="#">
+          <a href="blogpost4.html">
             <img src="img/4.jpg" alt="card image">
           </a>
         </div>
   
         <div class="card-description">
-          <a href="#">
-            <h3>Project title here</h3>
+          <a href="blogpost4.html">
+            <h3>Blog title here</h3>
           </a>
+          <div class="card-meta">
+            Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+          </div>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
           </p>
-          <a href="#" class="btn-readmore">Read more</a>
+          <a href="blogpost4.html" class="btn-readmore">Read more</a>
         </div>
       </div>
-  </section>
 
-  <h2 class="section-heading">Source Code</h2>
-<section id="section-source">
-<p>
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-</p>
-<a href="#">GitHub Profile</a>
+      <!-- card 5 & 6 -->
+
+        <div class="card">
+          <div class="card-image">
+            <a href="blogpost5.html">
+              <img src="img/5.jpg" alt="card image">
+            </a>
+          </div>
+    
+          <div class="card-description">
+            <a href="blogpost5.html">
+              <h3>Blog title here</h3>
+            </a>
+            <div class="card-meta">
+              Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+            </p>
+            <a href="blogpost5.html" class="btn-readmore">Read more</a>
+          </div>
+        </div>
+    
+          <div class="card">
+            <div class="card-image">
+              <a href="blogpost6.html">
+                <img src="img/6.jpg" alt="card image">
+              </a>
+            </div>
+      
+            <div class="card-description">
+              <a href="blogpost6.html">
+                <h3>Blog title here</h3>
+              </a>
+              <div class="card-meta">
+                Posted by Admin on 01/23/2018 in <a href="">Web Dev</a>
+              </div>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+              </p>
+              <a href="blogpost6.html" class="btn-readmore">Read more</a>
+            </div>
+    </div>
 </section>
+<!-- Pagination -->
+<div class="pagination">
+  <a href="#">Prev</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">Next</a>
+</div>
 
   <!-- footer section 1 -->
   <footer>

@@ -1,0 +1,9 @@
+$darkBlue: #4c99b3;
+
+h1{
+  color: $darkBlue;
+}
+
+h3 {
+  color: complement($darkBlue);
+}
